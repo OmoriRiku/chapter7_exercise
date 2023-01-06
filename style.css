@@ -2,4 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #333;
+}
+
+/* 余白確認css
+.padding-bottom50 {
+    padding-bottom: 50px;
+}
+
+.padding-bottom30 {
+    padding-bottom: 30px;
+}
+
+.padding-top30 {
+    padding-top: 30px;
+}
+*/
+
+.main-visual {
+    width: 100%;
+    height: 400px;
+    background-image: url(img/mv.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 50px;
+}
+
+.main-visual-heading {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.main {
+    width: 840px;
+    margin: 0 auto 50px;
+}
+
+.main-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.main-item:first-child {
+    padding-top: 0;
 }
